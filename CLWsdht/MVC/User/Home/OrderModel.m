@@ -19,9 +19,13 @@
     NSMutableArray *mutableArr = [[NSMutableArray alloc] initWithCapacity:0];
     for (NSDictionary *dic2 in arr1) {
         OrderModel *orderModel = [[OrderModel alloc] init];
+        orderModel.StoreImg = [dic2 objectForKey:@"StoreImg"];
+        orderModel.StoreUrl = [dic2 objectForKey:@"StoreUrl"];
         orderModel.Price = [dic2 objectForKey:@"Price"];
-        orderModel.StoreName = [dic2 objectForKey:@"StoreName"];
         orderModel.Id = [dic2 objectForKey:@"Id"];
+        orderModel.StoreName = [dic2 objectForKey:@"StoreName"];
+        orderModel.PartsMobile = [dic2 objectForKey:@"PartsMobile"];
+        orderModel.StoreId = [dic2 objectForKey:@"StoreId"];
         orderModel.PartsList = [dic2 objectForKey:@"PartsLst"];
         orderModel.State = [dic2 objectForKey:@"State"];
         orderModel.GarageState = [dic2 objectForKey:@"GarageState"];

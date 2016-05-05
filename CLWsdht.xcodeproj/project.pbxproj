@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29A0387E1CD9FA3D0026A1C3 /* PayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A0387C1CD9FA3D0026A1C3 /* PayController.m */; };
+		29A0387F1CD9FA3D0026A1C3 /* PayController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29A0387D1CD9FA3D0026A1C3 /* PayController.xib */; };
+		29A038831CDAC2820026A1C3 /* PayOrderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A038811CDAC2820026A1C3 /* PayOrderController.m */; };
+		29A038841CDAC2820026A1C3 /* PayOrderController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29A038821CDAC2820026A1C3 /* PayOrderController.xib */; };
 		29CD62AA1CD974B2002B4DF4 /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 29CD62101CD974B2002B4DF4 /* AlipaySDK.bundle */; };
 		29CD62AB1CD974B2002B4DF4 /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29CD62111CD974B2002B4DF4 /* AlipaySDK.framework */; };
 		29CD62AC1CD974B2002B4DF4 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29CD62121CD974B2002B4DF4 /* libcrypto.a */; };
@@ -319,6 +323,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		29A0387B1CD9FA3D0026A1C3 /* PayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayController.h; sourceTree = "<group>"; };
+		29A0387C1CD9FA3D0026A1C3 /* PayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayController.m; sourceTree = "<group>"; };
+		29A0387D1CD9FA3D0026A1C3 /* PayController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PayController.xib; sourceTree = "<group>"; };
+		29A038801CDAC2820026A1C3 /* PayOrderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayOrderController.h; sourceTree = "<group>"; };
+		29A038811CDAC2820026A1C3 /* PayOrderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayOrderController.m; sourceTree = "<group>"; };
+		29A038821CDAC2820026A1C3 /* PayOrderController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PayOrderController.xib; sourceTree = "<group>"; };
 		29CD62101CD974B2002B4DF4 /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
 		29CD62111CD974B2002B4DF4 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
 		29CD62121CD974B2002B4DF4 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
@@ -988,6 +998,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29A0387A1CD9FA3D0026A1C3 /* 支付-oyj */ = {
+			isa = PBXGroup;
+			children = (
+				29A0387B1CD9FA3D0026A1C3 /* PayController.h */,
+				29A0387C1CD9FA3D0026A1C3 /* PayController.m */,
+				29A0387D1CD9FA3D0026A1C3 /* PayController.xib */,
+				29A038801CDAC2820026A1C3 /* PayOrderController.h */,
+				29A038811CDAC2820026A1C3 /* PayOrderController.m */,
+				29A038821CDAC2820026A1C3 /* PayOrderController.xib */,
+			);
+			path = "支付-oyj";
+			sourceTree = "<group>";
+		};
 		29CD620E1CD974B2002B4DF4 /* 第三方支付 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1984,6 +2007,7 @@
 		98D478C41CC734BF00F09464 /* OrderVC */ = {
 			isa = PBXGroup;
 			children = (
+				29A0387A1CD9FA3D0026A1C3 /* 支付-oyj */,
 				984FEA1B1CB60E1300D9C9C5 /* MyOrderViewController.h */,
 				984FEA1C1CB60E1300D9C9C5 /* MyOrderViewController.m */,
 				98D7892B1CB7962E003488D8 /* TheOrderViewController.h */,
@@ -2740,6 +2764,7 @@
 				29CD62AA1CD974B2002B4DF4 /* AlipaySDK.bundle in Resources */,
 				582C620B1CD4550800435FF4 /* StoreBtCell.xib in Resources */,
 				98A3358E1CC477E400126016 /* ReturnGoodsViewController.xib in Resources */,
+				29A038841CDAC2820026A1C3 /* PayOrderController.xib in Resources */,
 				DF0991DA1C5B44AC001B6F2D /* repairCarStoreViewController.xib in Resources */,
 				987D78B61C9CF847005A0A2C /* UsrStoreTableViewCell.xib in Resources */,
 				98E8C1B81C49E5EB00310091 /* address_list.json in Resources */,
@@ -2749,6 +2774,7 @@
 				DF0991891C55F6B7001B6F2D /* SearchBarViewController.xib in Resources */,
 				29CD62CB1CD974B2002B4DF4 /* ShareSDKFlatShareViewUI.bundle in Resources */,
 				582C62061CD4550800435FF4 /* DemandDetailsCollectionCell.xib in Resources */,
+				29A0387F1CD9FA3D0026A1C3 /* PayController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2801,6 +2827,7 @@
 				582C620D1CD4550800435FF4 /* StartView.m in Sources */,
 				98C025921CBCC4CF0068ABE6 /* OrderModel.m in Sources */,
 				DF0991C61C5767C1001B6F2D /* DockMenuView.m in Sources */,
+				29A0387E1CD9FA3D0026A1C3 /* PayController.m in Sources */,
 				DF0991C71C5767C1001B6F2D /* DockMenuSubView.m in Sources */,
 				29CD62B91CD974B2002B4DF4 /* payRequsestHandler.mm in Sources */,
 				29CD63071CD98BFB002B4DF4 /* ImgModal.m in Sources */,
@@ -2960,6 +2987,7 @@
 				DFA54CD71CD0900200817097 /* ReleaseModel.m in Sources */,
 				582C61F71CD4550800435FF4 /* AddRepairViewController.m in Sources */,
 				98E8C1EE1C49E60900310091 /* BaseTabBarController.m in Sources */,
+				29A038831CDAC2820026A1C3 /* PayOrderController.m in Sources */,
 				C9622DC71C4B40E700AE849E /* ZLPhotoPickerGroupViewController.m in Sources */,
 				29CD63571CD98F91002B4DF4 /* returnDataPartsList.m in Sources */,
 				29CD635E1CD98F91002B4DF4 /* GoodsDescriptionViewController.m in Sources */,

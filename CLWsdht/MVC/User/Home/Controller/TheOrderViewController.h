@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PayOrderController.h"
 
 @interface TheOrderViewController : UIViewController
 

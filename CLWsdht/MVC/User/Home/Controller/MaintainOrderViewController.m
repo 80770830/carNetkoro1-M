@@ -14,6 +14,7 @@
 #import "BaseHeader.h"
 #import "MaintainModel.h"
 #import "SingleCase.h"
+#import "PayController.h"
 
 @interface MaintainOrderViewController ()<UITableViewDataSource,UITableViewDelegate>
 
@@ -32,6 +33,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+}
+-(void)viewWillAppear:(BOOL)animated
+{
     [self.navigationItem setTitle:@"我的维修订单"];
     _partlistArr = [[NSMutableArray alloc] initWithCapacity:0];
     SingleCase *singleCase = [SingleCase sharedSingleCase];
@@ -39,8 +43,8 @@
     [self setUpView];
     [self changLabel];
     [self GetOrderListByNetwork];
-}
 
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
@@ -245,7 +249,8 @@
     [payButton setTitle:@"支付" forState:UIControlStateNormal];
     [payButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     [payButton setTitleColor:[UIColor whiteColor] forState:UIControlStateHighlighted];
-    //[button addTarget:self action:@selector(button:) forControlEvents:UIControlEventTouchUpInside];
+    payButton.tag=section;
+    [payButton addTarget:self action:@selector(payButtonAction:) forControlEvents:UIControlEventTouchUpInside];
     //评价按钮
     UIButton *judgeBtn = [[UIButton alloc] initWithFrame:CGRectMake(footerView.frame.size.width-80, footerView.frame.size.height-35, 65, 30)];
     [judgeBtn setBackgroundColor:[UIColor redColor]];
@@ -388,7 +393,16 @@
     
 }
 
+#pragma mark -- Action
 
+-(IBAction)payButtonAction:(UIButton*)sender
+{
+    PayController *contr=[[PayController alloc]init];
+    MaintainModel *OM = [[MaintainModel alloc] init];
+    OM = _partlistArr[sender.tag];
+    contr.orderModal=OM;
+    [self.navigationController pushViewController:contr animated:YES];
+}
 
 
 /*

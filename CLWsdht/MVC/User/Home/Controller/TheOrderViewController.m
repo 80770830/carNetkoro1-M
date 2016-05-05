@@ -35,6 +35,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+}
+-(void)viewWillAppear:(BOOL)animated
+{
     [self.navigationItem setTitle:@"我的配件订单"];
     _partlistArr = [[NSMutableArray alloc] initWithCapacity:0];
     SingleCase *singleCase = [SingleCase sharedSingleCase];
@@ -250,7 +254,8 @@
     [payButton setTitle:@"支付" forState:UIControlStateNormal];
     [payButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     [payButton setTitleColor:[UIColor lightGrayColor] forState:UIControlStateHighlighted];
-    //[button addTarget:self action:@selector(button:) forControlEvents:UIControlEventTouchUpInside];
+    payButton.tag=section;
+    [payButton addTarget:self action:@selector(payButtonAction:) forControlEvents:UIControlEventTouchUpInside];
     //退货按钮
     UIButton *returnButton = [[UIButton alloc] initWithFrame:CGRectMake(cancelButton.frame.origin.x-70, cancelButton.frame.origin.y, 65, 30)];
     [returnButton setBackgroundColor:[UIColor redColor]];
@@ -388,6 +393,16 @@
     NSLog(@"model = %@", model);
 }
 
+#pragma mark -- Action
+
+-(IBAction)payButtonAction:(UIButton*)sender
+{
+    PayOrderController *contr=[[PayOrderController alloc]init];
+    OrderModel *OM = [[OrderModel alloc] init];
+    OM = _partlistArr[sender.tag];
+    contr.orderModal=OM;
+    [self.navigationController pushViewController:contr animated:YES];
+}
 
 /*
 #pragma mark - Navigation
