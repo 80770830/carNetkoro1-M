@@ -1,6 +1,6 @@
 platform :ios, ‘7.0’
 
-pod 'SVProgressHUD'             #蒙版
+pod 'SVProgressHUD' , '~> 1.1.3’ #蒙版
 pod 'MBProgressHUD', '~> 0.9.1' #蒙版
 pod 'AFNetworking',  '~> 3.0'   #网络库
 pod 'SDWebImage',    '~>3.7'    #异步加载图片
