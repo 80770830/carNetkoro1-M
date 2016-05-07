@@ -114,6 +114,8 @@
 - (void)viewDidLoad {
     self.title=@"下单";
     [super viewDidLoad];
+    UIBarButtonItem *returnBut=[[UIBarButtonItem alloc]initWithTitle:@"<返回" style:UIBarButtonItemStylePlain target:self action:@selector(returnAction)];
+    self.navigationItem.leftBarButtonItem=returnBut;
     [self updateUI];
 }
 
@@ -374,6 +376,15 @@
     self.selectCarBrandLabel.text=[NSString stringWithFormat:@"%@%@",carBrandName,carStyleName];
     [self.pickerCarStyleView removeFromSuperview];
     
+}
+
+
+//返回按钮
+-(IBAction)returnAction
+{
+    [self.navigationController dismissViewControllerAnimated:YES completion:^{
+        
+    }];
 }
 #pragma mark - UIPicker Delegate
 - (NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView {
