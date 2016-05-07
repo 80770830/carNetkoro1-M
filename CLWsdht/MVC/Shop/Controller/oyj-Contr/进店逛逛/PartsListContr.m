@@ -190,7 +190,7 @@
     
     ScrollViewTestVC.goodID=sender.goodId;
     ScrollViewTestVC.storeMobile=sender.storeMobile;
+    [self setHidesBottomBarWhenPushed:YES];
     [self.navigationController pushViewController:ScrollViewTestVC animated:YES];
-    [self setHidesBottomBarWhenPushed:NO];
 }
 @end

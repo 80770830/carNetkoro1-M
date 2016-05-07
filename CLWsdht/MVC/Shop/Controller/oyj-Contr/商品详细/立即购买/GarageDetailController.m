@@ -54,8 +54,15 @@
             [self.segmentScrollView addSubview:button];
             
         }
-        
-        UILabel *servicePartsUseFor=[[UILabel alloc]initWithFrame:CGRectMake(20, 10+CGRectGetMaxY(button.frame), 80, 30)];
+        float servicePartsUseFor_y;
+        if (self.returnData.Data.ServiceCarBrand.count==0) {
+            servicePartsUseFor_y=10+20;
+        }else
+        {
+            servicePartsUseFor_y=10+CGRectGetMaxY(button.frame);
+
+        }
+        UILabel *servicePartsUseFor=[[UILabel alloc]initWithFrame:CGRectMake(20,servicePartsUseFor_y , 80, 30)];
         servicePartsUseFor.text=@"维修能力";
         servicePartsUseFor.textColor=[UIColor darkGrayColor];
         [self.segmentScrollView addSubview:servicePartsUseFor];

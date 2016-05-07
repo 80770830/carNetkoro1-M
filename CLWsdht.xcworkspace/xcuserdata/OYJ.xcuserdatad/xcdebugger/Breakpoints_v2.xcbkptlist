@@ -51,21 +51,5 @@
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "CLWsdht/MVC/Shop/Controller/oyj-Contr/&#x4e03;&#x4e2a;&#x5546;&#x54c1;&#x5206;&#x7c7b;&#x5b50;&#x9875;&#x9762;/ChoseSparePartsViewController.m"
-            timestampString = "484216507.445286"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "59"
-            endingLineNumber = "59"
-            landmarkName = "-districtArray"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

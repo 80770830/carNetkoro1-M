@@ -22,7 +22,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CheckClassifyCell1" rowHeight="48" id="83c-Fd-rgZ" customClass="CheckClassifyCell1">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="CheckClassifyCell1" rowHeight="48" id="83c-Fd-rgZ" customClass="CheckClassifyCell1">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="83c-Fd-rgZ" id="WI1-As-uqa">
@@ -189,7 +189,7 @@
                                             <outlet property="allGoodsButton" destination="0xr-8e-0vX" id="NPN-g9-8Yk"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CheckClassifyCell2" rowHeight="27" id="5TP-wB-1AJ" customClass="CheckClassifyCell2">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="CheckClassifyCell2" rowHeight="27" id="5TP-wB-1AJ" customClass="CheckClassifyCell2">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="5TP-wB-1AJ" id="6BW-jT-LgU">
@@ -244,7 +244,7 @@
                                             <outlet property="titleButton" destination="X1c-F9-fJC" id="Gez-Ke-K63"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CheckClassifyCell3" rowHeight="49" id="m0v-kR-nRk" customClass="CheckClassifyCell3">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="CheckClassifyCell3" rowHeight="49" id="m0v-kR-nRk" customClass="CheckClassifyCell3">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="m0v-kR-nRk" id="Foe-Rv-lCb">
@@ -328,7 +328,7 @@
                             <constraint firstAttribute="trailing" secondItem="blE-OL-4La" secondAttribute="trailing" id="2u5-D8-gfy"/>
                             <constraint firstItem="IRq-FT-CSS" firstAttribute="top" secondItem="blE-OL-4La" secondAttribute="bottom" id="83S-CU-j6J"/>
                             <constraint firstItem="blE-OL-4La" firstAttribute="leading" secondItem="ndE-Zs-JqO" secondAttribute="leading" id="9oO-Cl-KFO"/>
-                            <constraint firstItem="blE-OL-4La" firstAttribute="top" secondItem="ndE-Zs-JqO" secondAttribute="top" id="W8m-Oj-mbH"/>
+                            <constraint firstItem="blE-OL-4La" firstAttribute="top" secondItem="ndE-Zs-JqO" secondAttribute="top" constant="64" id="W8m-Oj-mbH"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
@@ -377,7 +377,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PartsListCell" rowHeight="189" id="clo-fS-Wh9" customClass="CheckClassifyCell">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="PartsListCell" rowHeight="189" id="clo-fS-Wh9" customClass="CheckClassifyCell">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="clo-fS-Wh9" id="Fqi-fb-8lo">
@@ -550,7 +550,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="VcD-u7-8Uv" firstAttribute="leading" secondItem="YbU-m2-24F" secondAttribute="leading" id="JMO-gf-NWD"/>
-                            <constraint firstItem="VcD-u7-8Uv" firstAttribute="top" secondItem="YbU-m2-24F" secondAttribute="top" id="Kxz-Zg-pUm"/>
+                            <constraint firstItem="VcD-u7-8Uv" firstAttribute="top" secondItem="YbU-m2-24F" secondAttribute="top" constant="64" id="Kxz-Zg-pUm"/>
                             <constraint firstItem="BUf-vC-jBP" firstAttribute="top" secondItem="VcD-u7-8Uv" secondAttribute="bottom" id="QZ1-cF-a03"/>
                             <constraint firstAttribute="trailing" secondItem="VcD-u7-8Uv" secondAttribute="trailing" id="dTH-7q-3so"/>
                         </constraints>

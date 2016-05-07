@@ -194,6 +194,7 @@
     contr.state=2;
     [self.navigationController pushViewController:contr animated:YES];
     
+    
 }
 
 
