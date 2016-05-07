@@ -407,7 +407,8 @@
 #pragma mark - 立即购买
 - (IBAction)buyNowAction:(id)sender {
 //    [self.navigationController pushViewController:self.contr animated:YES];
-    [self presentViewController:self.contr animated:YES completion:^{
+    UINavigationController *nav=[[UINavigationController alloc]initWithRootViewController:self.contr];
+    [self presentViewController:nav animated:YES completion:^{
         
     }];
 }

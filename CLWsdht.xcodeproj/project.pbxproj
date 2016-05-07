@@ -7,10 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		292F0F1D1CDB77410039D403 /* GarageListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 292F0F1C1CDB77410039D403 /* GarageListController.m */; };
+		292F0F1F1CDB775D0039D403 /* GarageListStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 292F0F1E1CDB775D0039D403 /* GarageListStoryboard.storyboard */; };
+		292F0F231CDB7AB00039D403 /* GarageListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 292F0F221CDB7AB00039D403 /* GarageListCell.m */; };
+		292F0F291CDB81F50039D403 /* GarageReturnData.m in Sources */ = {isa = PBXBuildFile; fileRef = 292F0F281CDB81F50039D403 /* GarageReturnData.m */; };
+		292F0F2C1CDB83000039D403 /* GarageData.m in Sources */ = {isa = PBXBuildFile; fileRef = 292F0F2B1CDB83000039D403 /* GarageData.m */; };
+		292F0F2F1CDB84470039D403 /* GarageModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 292F0F2E1CDB84470039D403 /* GarageModal.m */; };
+		292F0F351CDC13C80039D403 /* GarageDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 292F0F341CDC13C80039D403 /* GarageDetailController.m */; };
+		292F0F3A1CDC46220039D403 /* GarageDetailReturn.m in Sources */ = {isa = PBXBuildFile; fileRef = 292F0F391CDC46220039D403 /* GarageDetailReturn.m */; };
+		292F0F3D1CDC467D0039D403 /* GarageDetailData.m in Sources */ = {isa = PBXBuildFile; fileRef = 292F0F3C1CDC467D0039D403 /* GarageDetailData.m */; };
+		292F0F401CDC47810039D403 /* ServiceCarBrand.m in Sources */ = {isa = PBXBuildFile; fileRef = 292F0F3F1CDC47810039D403 /* ServiceCarBrand.m */; };
+		292F0F431CDC47920039D403 /* ServicePartsUseFor.m in Sources */ = {isa = PBXBuildFile; fileRef = 292F0F421CDC47920039D403 /* ServicePartsUseFor.m */; };
 		29A0387E1CD9FA3D0026A1C3 /* PayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A0387C1CD9FA3D0026A1C3 /* PayController.m */; };
 		29A0387F1CD9FA3D0026A1C3 /* PayController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29A0387D1CD9FA3D0026A1C3 /* PayController.xib */; };
 		29A038831CDAC2820026A1C3 /* PayOrderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A038811CDAC2820026A1C3 /* PayOrderController.m */; };
 		29A038841CDAC2820026A1C3 /* PayOrderController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29A038821CDAC2820026A1C3 /* PayOrderController.xib */; };
+		29A038881CDAF1070026A1C3 /* AddressSelectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A038871CDAF1070026A1C3 /* AddressSelectController.m */; };
+		29A0388A1CDAF11E0026A1C3 /* AddressSelect.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29A038891CDAF11E0026A1C3 /* AddressSelect.storyboard */; };
+		29A0388D1CDAF4EF0026A1C3 /* AddressSelectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A0388C1CDAF4EF0026A1C3 /* AddressSelectCell.m */; };
 		29CD62AA1CD974B2002B4DF4 /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 29CD62101CD974B2002B4DF4 /* AlipaySDK.bundle */; };
 		29CD62AB1CD974B2002B4DF4 /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29CD62111CD974B2002B4DF4 /* AlipaySDK.framework */; };
 		29CD62AC1CD974B2002B4DF4 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29CD62121CD974B2002B4DF4 /* libcrypto.a */; };
@@ -323,12 +337,38 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		292F0F1B1CDB77410039D403 /* GarageListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GarageListController.h; sourceTree = "<group>"; };
+		292F0F1C1CDB77410039D403 /* GarageListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GarageListController.m; sourceTree = "<group>"; };
+		292F0F1E1CDB775D0039D403 /* GarageListStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = GarageListStoryboard.storyboard; path = "地址选择页/GarageListStoryboard.storyboard"; sourceTree = "<group>"; };
+		292F0F211CDB7AB00039D403 /* GarageListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GarageListCell.h; sourceTree = "<group>"; };
+		292F0F221CDB7AB00039D403 /* GarageListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GarageListCell.m; sourceTree = "<group>"; };
+		292F0F271CDB81F50039D403 /* GarageReturnData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GarageReturnData.h; sourceTree = "<group>"; };
+		292F0F281CDB81F50039D403 /* GarageReturnData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GarageReturnData.m; sourceTree = "<group>"; };
+		292F0F2A1CDB83000039D403 /* GarageData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GarageData.h; sourceTree = "<group>"; };
+		292F0F2B1CDB83000039D403 /* GarageData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GarageData.m; sourceTree = "<group>"; };
+		292F0F2D1CDB84470039D403 /* GarageModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GarageModal.h; sourceTree = "<group>"; };
+		292F0F2E1CDB84470039D403 /* GarageModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GarageModal.m; sourceTree = "<group>"; };
+		292F0F331CDC13C80039D403 /* GarageDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GarageDetailController.h; sourceTree = "<group>"; };
+		292F0F341CDC13C80039D403 /* GarageDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GarageDetailController.m; sourceTree = "<group>"; };
+		292F0F381CDC46220039D403 /* GarageDetailReturn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GarageDetailReturn.h; sourceTree = "<group>"; };
+		292F0F391CDC46220039D403 /* GarageDetailReturn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GarageDetailReturn.m; sourceTree = "<group>"; };
+		292F0F3B1CDC467D0039D403 /* GarageDetailData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GarageDetailData.h; sourceTree = "<group>"; };
+		292F0F3C1CDC467D0039D403 /* GarageDetailData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GarageDetailData.m; sourceTree = "<group>"; };
+		292F0F3E1CDC47810039D403 /* ServiceCarBrand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceCarBrand.h; sourceTree = "<group>"; };
+		292F0F3F1CDC47810039D403 /* ServiceCarBrand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceCarBrand.m; sourceTree = "<group>"; };
+		292F0F411CDC47920039D403 /* ServicePartsUseFor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServicePartsUseFor.h; sourceTree = "<group>"; };
+		292F0F421CDC47920039D403 /* ServicePartsUseFor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServicePartsUseFor.m; sourceTree = "<group>"; };
 		29A0387B1CD9FA3D0026A1C3 /* PayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayController.h; sourceTree = "<group>"; };
 		29A0387C1CD9FA3D0026A1C3 /* PayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayController.m; sourceTree = "<group>"; };
 		29A0387D1CD9FA3D0026A1C3 /* PayController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PayController.xib; sourceTree = "<group>"; };
 		29A038801CDAC2820026A1C3 /* PayOrderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayOrderController.h; sourceTree = "<group>"; };
 		29A038811CDAC2820026A1C3 /* PayOrderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayOrderController.m; sourceTree = "<group>"; };
 		29A038821CDAC2820026A1C3 /* PayOrderController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PayOrderController.xib; sourceTree = "<group>"; };
+		29A038861CDAF1070026A1C3 /* AddressSelectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressSelectController.h; sourceTree = "<group>"; };
+		29A038871CDAF1070026A1C3 /* AddressSelectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressSelectController.m; sourceTree = "<group>"; };
+		29A038891CDAF11E0026A1C3 /* AddressSelect.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AddressSelect.storyboard; sourceTree = "<group>"; };
+		29A0388B1CDAF4EF0026A1C3 /* AddressSelectCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressSelectCell.h; sourceTree = "<group>"; };
+		29A0388C1CDAF4EF0026A1C3 /* AddressSelectCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressSelectCell.m; sourceTree = "<group>"; };
 		29CD62101CD974B2002B4DF4 /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
 		29CD62111CD974B2002B4DF4 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
 		29CD62121CD974B2002B4DF4 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
@@ -998,6 +1038,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		292F0F201CDB7A310039D403 /* 修配厂列表页 */ = {
+			isa = PBXGroup;
+			children = (
+				292F0F261CDB81C70039D403 /* Modal */,
+				292F0F251CDB81A60039D403 /* View */,
+				292F0F241CDB819A0039D403 /* Contr */,
+			);
+			name = "修配厂列表页";
+			sourceTree = "<group>";
+		};
+		292F0F241CDB819A0039D403 /* Contr */ = {
+			isa = PBXGroup;
+			children = (
+				292F0F1B1CDB77410039D403 /* GarageListController.h */,
+				292F0F1C1CDB77410039D403 /* GarageListController.m */,
+				292F0F1E1CDB775D0039D403 /* GarageListStoryboard.storyboard */,
+				292F0F331CDC13C80039D403 /* GarageDetailController.h */,
+				292F0F341CDC13C80039D403 /* GarageDetailController.m */,
+			);
+			name = Contr;
+			sourceTree = "<group>";
+		};
+		292F0F251CDB81A60039D403 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				292F0F211CDB7AB00039D403 /* GarageListCell.h */,
+				292F0F221CDB7AB00039D403 /* GarageListCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		292F0F261CDB81C70039D403 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				292F0F371CDC45F60039D403 /* 修配厂详细Modal */,
+				292F0F361CDC45D20039D403 /* 修配厂列表Modal */,
+			);
+			name = Modal;
+			sourceTree = "<group>";
+		};
+		292F0F361CDC45D20039D403 /* 修配厂列表Modal */ = {
+			isa = PBXGroup;
+			children = (
+				292F0F271CDB81F50039D403 /* GarageReturnData.h */,
+				292F0F281CDB81F50039D403 /* GarageReturnData.m */,
+				292F0F2A1CDB83000039D403 /* GarageData.h */,
+				292F0F2B1CDB83000039D403 /* GarageData.m */,
+				292F0F2D1CDB84470039D403 /* GarageModal.h */,
+				292F0F2E1CDB84470039D403 /* GarageModal.m */,
+			);
+			name = "修配厂列表Modal";
+			sourceTree = "<group>";
+		};
+		292F0F371CDC45F60039D403 /* 修配厂详细Modal */ = {
+			isa = PBXGroup;
+			children = (
+				292F0F381CDC46220039D403 /* GarageDetailReturn.h */,
+				292F0F391CDC46220039D403 /* GarageDetailReturn.m */,
+				292F0F3B1CDC467D0039D403 /* GarageDetailData.h */,
+				292F0F3C1CDC467D0039D403 /* GarageDetailData.m */,
+				292F0F3E1CDC47810039D403 /* ServiceCarBrand.h */,
+				292F0F3F1CDC47810039D403 /* ServiceCarBrand.m */,
+				292F0F411CDC47920039D403 /* ServicePartsUseFor.h */,
+				292F0F421CDC47920039D403 /* ServicePartsUseFor.m */,
+			);
+			name = "修配厂详细Modal";
+			sourceTree = "<group>";
+		};
 		29A0387A1CD9FA3D0026A1C3 /* 支付-oyj */ = {
 			isa = PBXGroup;
 			children = (
@@ -1009,6 +1117,18 @@
 				29A038821CDAC2820026A1C3 /* PayOrderController.xib */,
 			);
 			path = "支付-oyj";
+			sourceTree = "<group>";
+		};
+		29A038851CDAF0D50026A1C3 /* 地址选择页 */ = {
+			isa = PBXGroup;
+			children = (
+				29A038861CDAF1070026A1C3 /* AddressSelectController.h */,
+				29A038871CDAF1070026A1C3 /* AddressSelectController.m */,
+				29A038891CDAF11E0026A1C3 /* AddressSelect.storyboard */,
+				29A0388B1CDAF4EF0026A1C3 /* AddressSelectCell.h */,
+				29A0388C1CDAF4EF0026A1C3 /* AddressSelectCell.m */,
+			);
+			path = "地址选择页";
 			sourceTree = "<group>";
 		};
 		29CD620E1CD974B2002B4DF4 /* 第三方支付 */ = {
@@ -1434,6 +1554,8 @@
 		29CD63341CD98F91002B4DF4 /* 立即购买 */ = {
 			isa = PBXGroup;
 			children = (
+				292F0F201CDB7A310039D403 /* 修配厂列表页 */,
+				29A038851CDAF0D50026A1C3 /* 地址选择页 */,
 				29CD63351CD98F91002B4DF4 /* BuyNowController.h */,
 				29CD63361CD98F91002B4DF4 /* BuyNowController.m */,
 				29CD63371CD98F91002B4DF4 /* BuyNowController.xib */,
@@ -2747,6 +2869,7 @@
 				DF0991D51C5B3223001B6F2D /* ChosePlaceViewController.xib in Resources */,
 				58F20A6D1CCB18EF008D513F /* PartsSrc.plist in Resources */,
 				29CD62C11CD974B2002B4DF4 /* ShareSDKLocalizable.strings in Resources */,
+				292F0F1F1CDB775D0039D403 /* GarageListStoryboard.storyboard in Resources */,
 				29CD636B1CD98F91002B4DF4 /* CheckClassify.storyboard in Resources */,
 				29CD63651CD98F91002B4DF4 /* BuyNowController.xib in Resources */,
 				987C82D21CCE0D1400117E03 /* ReleaseTableViewCell.xib in Resources */,
@@ -2768,6 +2891,7 @@
 				DF0991DA1C5B44AC001B6F2D /* repairCarStoreViewController.xib in Resources */,
 				987D78B61C9CF847005A0A2C /* UsrStoreTableViewCell.xib in Resources */,
 				98E8C1B81C49E5EB00310091 /* address_list.json in Resources */,
+				29A0388A1CDAF11E0026A1C3 /* AddressSelect.storyboard in Resources */,
 				98E8C1CB1C49E5EB00310091 /* User.storyboard in Resources */,
 				58F20A7E1CCB18EF008D513F /* DetailsImageTableViewCell.xib in Resources */,
 				29CD62C31CD974B2002B4DF4 /* Resource.bundle in Resources */,
@@ -2829,6 +2953,7 @@
 				DF0991C61C5767C1001B6F2D /* DockMenuView.m in Sources */,
 				29A0387E1CD9FA3D0026A1C3 /* PayController.m in Sources */,
 				DF0991C71C5767C1001B6F2D /* DockMenuSubView.m in Sources */,
+				292F0F3D1CDC467D0039D403 /* GarageDetailData.m in Sources */,
 				29CD62B91CD974B2002B4DF4 /* payRequsestHandler.mm in Sources */,
 				29CD63071CD98BFB002B4DF4 /* ImgModal.m in Sources */,
 				98E8C1761C49E50800310091 /* CLWsdht.xcdatamodeld in Sources */,
@@ -2854,6 +2979,7 @@
 				582C61FB1CD4550800435FF4 /* CarDemandViewController.m in Sources */,
 				29CD62B01CD974B2002B4DF4 /* DataVerifier.m in Sources */,
 				DF0991CF1C59A777001B6F2D /* SubmitOrderViewController.m in Sources */,
+				292F0F2C1CDB83000039D403 /* GarageData.m in Sources */,
 				C9622DCA1C4B40E700AE849E /* ZLPhotoPickerCollectionViewCell.m in Sources */,
 				C9622DB81C4B40E700AE849E /* ZLCameraView.m in Sources */,
 				29CD62B51CD974B2002B4DF4 /* RSADataVerifier.m in Sources */,
@@ -2884,6 +3010,7 @@
 				58F20A061CCB18CA008D513F /* MyNeedVC.m in Sources */,
 				98C0258D1CBC87F80068ABE6 /* MaintainOrderViewController.m in Sources */,
 				58F20A731CCB18EF008D513F /* STPickerArea.m in Sources */,
+				292F0F231CDB7AB00039D403 /* GarageListCell.m in Sources */,
 				29CD62AF1CD974B2002B4DF4 /* DataSigner.m in Sources */,
 				29CD62AE1CD974B2002B4DF4 /* base64.m in Sources */,
 				29CD63091CD98BFB002B4DF4 /* StoreReturnData.m in Sources */,
@@ -2893,6 +3020,7 @@
 				58F20A941CCB1AC8008D513F /* BaseModel.m in Sources */,
 				DFA54CDA1CD0B8F800817097 /* NSJSON+YBClass.m in Sources */,
 				C9A0D73E1C4A4B890028EEB8 /* MyShopCarAccessoryColorInfo.m in Sources */,
+				29A038881CDAF1070026A1C3 /* AddressSelectController.m in Sources */,
 				582C62031CD4550800435FF4 /* DemandCell.m in Sources */,
 				C9622DC91C4B40E700AE849E /* ZLPhotoPickerCollectionView.m in Sources */,
 				58F20A701CCB18EF008D513F /* ReleaseRequireModel.m in Sources */,
@@ -2907,10 +3035,13 @@
 				29CD63031CD98BFB002B4DF4 /* UserStoreModel.m in Sources */,
 				C9622DC21C4B40E700AE849E /* ZLPhotoAssets.m in Sources */,
 				29CD639A1CD9956E002B4DF4 /* SelectButton.m in Sources */,
+				292F0F1D1CDB77410039D403 /* GarageListController.m in Sources */,
 				29CD63021CD98BFB002B4DF4 /* PartsModal.m in Sources */,
 				C9622DC81C4B40E700AE849E /* ZLPhotoPickerViewController.m in Sources */,
 				29CD63701CD98F91002B4DF4 /* CheckClassifyCell.m in Sources */,
 				582C62091CD4550800435FF4 /* NameCollectionViewCell.m in Sources */,
+				292F0F3A1CDC46220039D403 /* GarageDetailReturn.m in Sources */,
+				292F0F351CDC13C80039D403 /* GarageDetailController.m in Sources */,
 				58F20A881CCB18EF008D513F /* RequireListModel.m in Sources */,
 				C9A0D7321C4A2E2A0028EEB8 /* FSDropDownMenu.m in Sources */,
 				29CD635C1CD98F91002B4DF4 /* ProductInfoViewController.m in Sources */,
@@ -2925,9 +3056,11 @@
 				C9622DC31C4B40E700AE849E /* ZLPhotoPickerDatas.m in Sources */,
 				9843A1581C9CECEF00FAE890 /* HmacSHA256.m in Sources */,
 				98E8C1BF1C49E5EB00310091 /* RegisterViewController.m in Sources */,
+				292F0F431CDC47920039D403 /* ServicePartsUseFor.m in Sources */,
 				98C025881CBC85940068ABE6 /* OrderTableViewCell.m in Sources */,
 				29CD63911CD9956E002B4DF4 /* MyShopCartContr.m in Sources */,
 				98E8C1C11C49E5EB00310091 /* AddressGroupJSONModel.m in Sources */,
+				292F0F401CDC47810039D403 /* ServiceCarBrand.m in Sources */,
 				29CD62B81CD974B2002B4DF4 /* ApiXml.mm in Sources */,
 				98E8C1F61C49E60900310091 /* UIView+Border.m in Sources */,
 				C9D829671C49F4130063EBC6 /* MyShopCell.m in Sources */,
@@ -2947,6 +3080,7 @@
 				29CD636D1CD98F91002B4DF4 /* CheckClassifyCell2.m in Sources */,
 				C9622DCD1C4B40E700AE849E /* ZLPhotoPickerImageView.m in Sources */,
 				29CD63601CD98F91002B4DF4 /* GoodsEvaluateController.m in Sources */,
+				29A0388D1CDAF4EF0026A1C3 /* AddressSelectCell.m in Sources */,
 				58F20A6A1CCB18EF008D513F /* ReleaseRequirementsViewController.m in Sources */,
 				58F20A951CCB1AC8008D513F /* BaseTableViewCell.m in Sources */,
 				98E8C1F51C49E60900310091 /* NS+Base64.m in Sources */,
@@ -2991,6 +3125,7 @@
 				C9622DC71C4B40E700AE849E /* ZLPhotoPickerGroupViewController.m in Sources */,
 				29CD63571CD98F91002B4DF4 /* returnDataPartsList.m in Sources */,
 				29CD635E1CD98F91002B4DF4 /* GoodsDescriptionViewController.m in Sources */,
+				292F0F2F1CDB84470039D403 /* GarageModal.m in Sources */,
 				29CD63691CD98F91002B4DF4 /* returnData.m in Sources */,
 				29CD63561CD98F91002B4DF4 /* returnDataInfoPartsList.m in Sources */,
 				3AECD7031CD2EE6C0076A225 /* UserEditPasswordVC.m in Sources */,
@@ -3022,6 +3157,7 @@
 				987D78B51C9CF847005A0A2C /* UsrStoreTableViewCell.m in Sources */,
 				C9622DB51C4B40E700AE849E /* UIView+ZLExtension.m in Sources */,
 				C9622D051C4B35B100AE849E /* MyShopPhotoCell.m in Sources */,
+				292F0F291CDB81F50039D403 /* GarageReturnData.m in Sources */,
 				98A335881CC4746200126016 /* TardeCancelOrderViewController.m in Sources */,
 				29CD63591CD98F91002B4DF4 /* CategoryModal.m in Sources */,
 				C9622DD51C4B40EE00AE849E /* DALabeledCircularProgressView.m in Sources */,
