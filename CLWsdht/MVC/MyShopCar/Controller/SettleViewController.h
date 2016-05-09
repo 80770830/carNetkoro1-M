@@ -8,7 +8,13 @@
 
 #import "BaseViewController.h"
 #import "UserInfo.h"
+#import "GoodInfoData.h"
 @interface SettleViewController : BaseViewController
 @property(nonatomic,strong)NSMutableArray *settleArray;
+//选择“我的”地址
+@property(strong,nonatomic)GoodInfoData *goodInfo;
+@property(strong,nonatomic)NSDictionary *selectAddressDic;
+//选择用户列表中地址1还是用户登陆时地址0
+@property(assign,nonatomic)BOOL newUsrAdsressState;
 
 @end

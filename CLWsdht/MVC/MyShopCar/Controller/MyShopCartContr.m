@@ -500,7 +500,8 @@
         UIStoryboard *MyShopCartContr = [UIStoryboard storyboardWithName:@"MyShopCartContr" bundle:nil];
         SettleViewController *settleViewContr = [MyShopCartContr instantiateViewControllerWithIdentifier:@"SettleViewController"];
         settleViewContr.settleArray=array;
-        [self presentViewController:settleViewContr animated:YES completion:^{}];
+         UINavigationController *nav=[[UINavigationController alloc]initWithRootViewController:settleViewContr];
+        [self presentViewController:nav animated:YES completion:^{}];
     }else{
         [SVProgressHUD showInfoWithStatus:@"请勾选物品后提交"];
     }
